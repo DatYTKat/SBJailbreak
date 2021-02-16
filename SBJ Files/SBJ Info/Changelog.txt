@@ -1,0 +1,21 @@
+
+<<1.0.2>>
+-[TBD]
+
+<<1.0.1>>
+-Added new PAC-01 Bypass
+
+<<1.0>>
+-[TBD]
+
+<<0.9>>
+-Added custom wallpaper inject
+
+<<0.8>>
+-Added custom wallpaper
+
+<<0.7>>
+-New jailbreaking method made
+
+<<0.6 and below>>
+-SBJ Starts Getting Developed

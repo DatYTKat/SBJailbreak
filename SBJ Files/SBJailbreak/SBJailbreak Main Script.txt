@@ -1,0 +1,78 @@
+<javac>
+txt="Welcome to SBJailbreak!" txt.loc loc=top
+context=Made by DatYTKat
+<div>
+ <div>
+  <div>
+   button-var.txt txt="Jailbreak!"
+    button.act act=run.script
+    
+<script>
+forcestop ext.GoGuardian
+stop until sbj.session has ended
+
+*if not found, <txtloc=button txt="Failed.">
+**if found, <continue>
+<continue_script>
+
+forcestop ext.IBoss
+
+***if not found, <txtloc=button txt="Failed.">
+****if found, <txtloc=button txt="Success!">
+
+button_3.opt txt=Get Wallpaper Freedom?
+new var. txt txt.loc= under button_3
+txt=Or finish
+
+if button_3 is clicked
+extract files from hackhobby.webnode.com/sbj/files/wallpaperextract
+install on ChromeOS/Policy/Wallpaper
+download Wallpaper_Picker.crx
+if Policy disables new_acc/Domain-Only/livoniacsd.org
+replace with any-open-source.domain
+
+if txt [contents] <Or finish> is clicked
+cancel extract from hackhobby.webnode.com/sbj/files/wallpaperextract
+replace button_3 with txt=Finished!
+
+continue with -4
+extract from hackhobby.webnode.com/sbj/bypass/-4
+move extracted-files to ChromeOS/SBJ/Bypass
+if not found exit with cmd -1
+then set wallpaper.var to default
+
+on respring
+install from hackhobby.webnode.com/jbfinish/-1/success/inject
+look for GooglePlay.crx
+if found pin to taskbar
+if not found cancel installation for GooglePlay.crx
+send RemotePing to sbjailbreak.webnode.com/unblock/google-hangouts/key/0ebajdhjahsohnajnjac
+if RemotePing returns -5
+extract from sbjailbreak.webnode.com/unblock/google-hangouts/key/0ebajdhjahsohnajnjac
+find HangoutsUnblockedSBJ.cia
+if found pin to taskbar
+if not found send msg to 585-245-1466 msg="HangoutsUnblocked failed to install. Error -3"
+
+bottom-page-txt="SUBSCRIBE"
+button 1.reder link=www.youtube.com/channel/datytkat
+
+<end script>
+<div>
+ <div>
+  <div>
+   <div>
+    button 2.reder link=hackhobby.webnode.com
+    <div>
+     button 2.txt txt="HackHobby!"
+     <div>
+      button 2.loc loc=bottom
+      <div>
+       txt.loc loc=bottom
+        <div>
+         txt="Made with <3 from The SBJ Team."
+          vpn.config ip=209.68.111.110 serv=0 0 0 0 0 0
+           txt.loc=r_corner txt="Ver. 0.1"
+           
+/Script ver. 0.2 (Beta) 
+
+/Delete this when scripting.
