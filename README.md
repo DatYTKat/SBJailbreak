@@ -2,7 +2,7 @@
 
 Main exploit changelog:
 
-# 1.0.1 - ???
+# 1.0.1 - (Update not avalible yet.)
 
 # 1.0 - Added PAC-01 Exploit
 
@@ -10,7 +10,9 @@ Main exploit changelog:
 
 # 0.8 - Added Wallpaper Picker Inject (For devices with forced restrictions on wallpapers)
 
-# 0.7 - Added Main Exploit (No name)
+# 0.7 - Added Custom Cursor Color
+
+# 0.6.1 Added Main Exploit
 
 # 0.6 - Added Beta Keys And Purchase Keys (For licensing SBJ)
 
